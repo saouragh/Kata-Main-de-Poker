@@ -1,4 +1,6 @@
-public class Carte {
+package com.quatrephishing;
+
+public class Card {
 
     private int valeur;
     private String couleur;
@@ -7,7 +9,7 @@ public class Carte {
         return valeur;
     }
 
-    public void setValeure(int valeur) {
+    public void setValeur(int valeur) {
         this.valeur = valeur;
     }
 
