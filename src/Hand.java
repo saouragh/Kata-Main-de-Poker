@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Hand {
 
     private List<Carte> handCards = null;
@@ -16,6 +19,7 @@ public class Hand {
 
     private List<Carte> handleInput(String value){
         handCards = new ArrayList<Carte>();
+        return null;
 
     }
 }
