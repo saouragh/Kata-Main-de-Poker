@@ -2,7 +2,7 @@ public class Carte {
 
     private int valeur;
     private String couleur;
-    private String aa;
+
     public int getValeur() {
         return valeur;
     }
